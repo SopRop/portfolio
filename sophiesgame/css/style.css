@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-image: url('../img/dark.png');
+  background-repeat: repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gameScreens {
+  background-image: url('../img/dark.png');
+  width: 70vw;
+  height: 70vh;
+}
+section[data-state="playScreen"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gameContainer {
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #f7ff00;
+}
+.gameDiv {
+  height: 40px;
+  width: 40px;
+}
+.hidden {
+  display: none!important;
+}
+.resetButton {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+section[data-state="optionScreen"]{
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.blue{
+  font-family: 'Monoton', cursive;
+  margin: 0;
+  font-size: 120px;
+  color: #164eab;
+  text-shadow: 0px 0px 3px #34cdd2;
+  line-height: 5px;
+}
+.pink{
+  font-family: 'Lilita One', cursive;
+  margin: 0;
+  font-size: 150px;
+  color: #62165a;
+  text-shadow: 3px 1px 0 #ce20bc;
+}
+section[data-state="optionScreen"] button{
+  font-family: 'Orbitron', cursive;
+  font-size: 30px;
+  color: black;
+  width: 200px;
+  height: 60px;
+  line-height: 60px;
+  background-color: white;
+  margin: 30px 0;
+}
+section[data-state="optionScreen"] h3{
+  font-family: 'Mukta Mahee', sans-serif;
+  font-size: 25px;
+  letter-spacing: 5px;
+  margin: 20px 0 5px 0;
+}
+section[data-state="optionScreen"] label{
+  font-family: 'Mukta Mahee', sans-serif;
+}
+section[data-state="optionScreen"] input {
+  font-family: 'Mukta Mahee', sans-serif;
+  width: 58px;
+  height: 20px;
+  font-size: 30px;
+}
+section[data-state="victory"] h2{
+  font-family: 'Lilita One', cursive;
+  text-align: center;
+  font-size: 150px;
+  color: #62165a;
+  text-shadow: 3px 1px 0 #ce20bc;
+}
+section[data-state="defeat"] h2{
+  font-family: 'Monoton', cursive;
+  text-align: center;
+  font-size: 120px;
+  color: #164eab;
+  text-shadow: 0px 0px 3px #34cdd2;
+}
+.resetButton {
+  font-family: 'Orbitron', cursive;
+  color: white;
+  font-size: 18px;
+  height: 40px;
+  width: 120px;
+  background-color: black;
+}
+.portfolioButton {
+  font-family: 'Orbitron', cursive;
+  color: white;
+  font-size: 18px;
+  height: 40px;
+  width: 120px;
+  background-color: black;
+}
