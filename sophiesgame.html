@@ -5,9 +5,10 @@
     <title>Sophie's game</title>
     <link rel="stylesheet" href="sophiesgame/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lilita+One|Monoton|Mukta+Mahee|Orbitron" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis:400,500,600,700" rel="stylesheet">
   <body>
     <button class="resetButton" data-action="reset">Black-out</button>
-    <button class="portfolioButton" data-action="portfolio">Back to me</button>
+    <a class="back hvr-grow" href="index.html#work">< back to me</a>
     <section data-state="optionScreen" class="gameScreens hidden">
       <h2 class="blue">SOPHIE'S</h2>
       <h2 class="pink">GAME</h2>
@@ -21,11 +22,9 @@
     <section data-state="playScreen" class="gameScreens hidden"></section>
     <section data-state="victory" class="gameScreens hidden">
       <h1>YOU<br>ROCK!</h1>
-      <button class="portfolioButton" data-action="portfolio">Back to me</button>
     </section>
     <section data-state="defeat" class="gameScreens hidden">
-      <h1>LOSER<br>YOU SUCK!</h1>
-      <button class="portfolioButton" data-action="portfolio">Back to me</button>
+      <h1>YOU<br>SUCK!</h1>
     </section>
   </body>
   <script src="https://code.jquery.com/jquery-3.2.1.js"

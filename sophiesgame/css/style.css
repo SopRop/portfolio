@@ -34,6 +34,12 @@ section[data-state="playScreen"] {
   position: fixed;
   top: 0;
   left: 0;
+  font-family: 'Orbitron', cursive;
+  color: white;
+  font-size: 18px;
+  height: 40px;
+  width: 120px;
+  background-color: black;
 }
 section[data-state="optionScreen"]{
   color: white;
@@ -82,33 +88,45 @@ section[data-state="optionScreen"] input {
   height: 20px;
   font-size: 30px;
 }
-section[data-state="victory"] h2{
+section[data-state="victory"] h1{
   font-family: 'Lilita One', cursive;
   text-align: center;
   font-size: 150px;
   color: #62165a;
   text-shadow: 3px 1px 0 #ce20bc;
 }
-section[data-state="defeat"] h2{
+section[data-state="defeat"] h1{
   font-family: 'Monoton', cursive;
   text-align: center;
   font-size: 120px;
   color: #164eab;
   text-shadow: 0px 0px 3px #34cdd2;
 }
-.resetButton {
-  font-family: 'Orbitron', cursive;
-  color: white;
+.back {
+  text-decoration: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
   font-size: 18px;
-  height: 40px;
-  width: 120px;
-  background-color: black;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 16px;
+  height: 30px;
 }
-.portfolioButton {
-  font-family: 'Orbitron', cursive;
-  color: white;
-  font-size: 18px;
-  height: 40px;
-  width: 120px;
-  background-color: black;
+.hvr-grow{
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.2);
 }
