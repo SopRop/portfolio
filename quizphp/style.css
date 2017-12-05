@@ -53,6 +53,9 @@ fieldset:nth-child(2n){
   padding: 10px;
   font-size: 20px;
 }
+.finish:hover{
+  background: #DF01D7;
+}
 .back {
   text-decoration: none;
   position: fixed;

@@ -5,7 +5,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Quizz IT-Akademy</title>
+    <title>Quiz IT-Akademy</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
@@ -13,7 +13,7 @@
   <body>
     <?php
       echo openForm("./script.php");
-      echo openH3("Quizz IT-Akademy");
+      echo openH3("Quiz IT-Akademy");
       echo createElement("Combien y a t-il de Morgan dans la promotion 2018<br>Développeur d'applications web et mobile ?", [
         [
           'type' => 'radio',
@@ -185,6 +185,6 @@
       echo createSubmit("score", "finish");
       echo closeTag("form");
       ?>
-      
+      <a class="back hvr-grow" href="../index.html#work">< back to me</a>
   </body>
 </html>

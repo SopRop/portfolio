@@ -27,7 +27,7 @@ $(document).ready(function(){
       $('#boldwork').css({'font-weight': 'semibold', 'font-size': '22px'});
       $('#boldcontact').css({'font-weight': 'normal', 'font-size': '18px'});
     } else if (scrollPos >= top4) {
-      $('#change').css('background-color', '#969491');
+      $('#change').css('background-color', 'black');
       $('#change').css('background-image', 'none');
       $('#boldhome').css({'font-weight': 'normal', 'font-size': '18px'});
       $('#boldabout').css({'font-weight': 'normal', 'font-size': '18px'});

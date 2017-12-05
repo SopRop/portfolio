@@ -20,6 +20,9 @@ ul{
   margin-bottom: 0;
   padding-left: 0;
 }
+strong{
+  font-weight: 400;
+}
 .flex-container{
   display: flex;
   align-items: center;
@@ -29,9 +32,6 @@ ul{
   display: flex;
   align-items: center;
   justify-content: left;
-}
-#contact{
-  background-color: #969491;
 }
 .one-page{
   height: 100vh;
@@ -352,12 +352,17 @@ nav li{
   display: flex;
   height: 380px;
   width: 380px;
+  background-color: black !important;
 }
 .case-txt{
+  padding: 5px 0;
   background-color: #D8D8D8;
-  height: 70px;
+  height: auto;
   color: black;
-  text-align: center;
+}
+.case-txt p{
+  margin-left: 6px;
+  line-height: 18px;
 }
 .hidden{
   opacity: 0;
@@ -367,7 +372,7 @@ nav li{
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #00000090
+  background-color: black;
 }
 .hidden:hover{
   opacity: 1;
@@ -375,8 +380,12 @@ nav li{
 .wanna{
   font-weight: 700;
   font-size: 120px;
-  line-height: 86px;
+  line-height: 95px;
   color: #D8D8D888
+}
+.quiz-img{
+  background: url("img/quiz-img.jpg") no-repeat center;
+  background-size: contain;
 }
 .sgame-img{
   background: url("img/sgame1.jpeg") no-repeat center;
@@ -387,4 +396,11 @@ nav li{
 }
 .github{
   margin-top: 40px;
+}
+
+/* CONTACT */
+
+#contact{
+  background: url(img/seatsresize.jpg) no-repeat top fixed;
+  background-size: cover;
 }
