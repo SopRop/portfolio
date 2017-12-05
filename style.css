@@ -44,8 +44,8 @@ h1{
   font-size: 40px;
   letter-spacing: 2px;
   font-weight: 400;
-  padding-top: 45px;
-  margin: 0 0 12px 0;
+  padding-top: 70px;
+  margin: 0 0 45px 0;
 }
 h2{
   text-transform: uppercase;
@@ -345,22 +345,38 @@ nav li{
 .column{
   display: flex;
   flex-direction: column;
-  border: 5px solid #851204;
+  border: 2px solid #851204;
+  margin-right: 70px;
 }
 .case-img{
+  display: flex;
   height: 380px;
   width: 380px;
 }
 .case-txt{
-  width:380px;
-  height:380px;
-}
-.case-txt{
   background-color: #D8D8D8;
-  height: 50px;
-  width: 380px;
+  height: 70px;
   color: black;
   text-align: center;
+}
+.hidden{
+  opacity: 0;
+  width: 380px;
+  height: 380px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #00000090
+}
+.hidden:hover{
+  opacity: 1;
+}
+.wanna{
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 86px;
+  color: #D8D8D888
 }
 .sgame-img{
   background: url("img/sgame1.jpeg") no-repeat center;
@@ -370,5 +386,5 @@ nav li{
   margin-right: 8px;
 }
 .github{
-  margin-top: 10px;
+  margin-top: 40px;
 }
