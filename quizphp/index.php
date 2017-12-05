@@ -14,7 +14,7 @@
     <?php
       echo openForm("./script.php");
       echo openH3("Quizz IT-Akademy");
-      echo createElement("Combien y a t-il<br>de Morgan dans la classe ?", [
+      echo createElement("Combien y a t-il de Morgan dans la promotion 2018<br>Développeur d'applications web et mobile ?", [
         [
           'type' => 'radio',
           'id' => 'q1answerA',
@@ -44,45 +44,45 @@
           'value' => "D",
         ],
       ]);
-      echo createElement("Qui sont les 3 filles<br>de la classe ?", [
+      echo createElement("Qui sont les 3 filles de la classe ?", [
         [
           'type' => 'checkbox',
           'id' => 'q2answerA',
-          'name' => 'q2answer',
+          'name' => 'q2answerA',
           'content' => "Sandra",
           'value' => "A",
         ],
         [
           'type' => 'checkbox',
           'id' => 'q2answerB',
-          'name' => 'q2answer',
+          'name' => 'q2answerB',
           'content' => "Julie",
           'value' => "B",
         ],
         [
           'type' => 'checkbox',
           'id' => 'q2answerC',
-          'name' => 'q2answer',
+          'name' => 'q2answerC',
           'content' => "Sophie",
           'value' => "C",
         ],
         [
           'type' => 'checkbox',
           'id' => 'q2answerD',
-          'name' => 'q2answer',
+          'name' => 'q2answerD',
           'content' => "Laure",
           'value' => "D",
         ],
         [
           'type' => 'checkbox',
           'id' => 'q2answerE',
-          'name' => 'q2answer',
+          'name' => 'q2answerE',
           'content' => "Cloé",
           'value' => "E",
         ],
       ]);
       echo "<fieldset>";
-      echo "<h4>Comment écrivez-vous<br>le nom de l'école ?</h4>";
+      echo "<h4>Comment s'écrit le nom de l'école ?</h4>";
       echo "<div>";
       echo createInputText("text", "q3answer", "q3answerA", "Réponse");
       echo "</fieldset>";
@@ -110,7 +110,7 @@
           'value' => "C",
         ],
       ]);
-      echo createElement("A quel point en chie-t-on ?", [
+      echo createElement("A quel point galèrons-nous ?", [
         [
           'type' => 'radio',
           'id' => 'q5answerA',
@@ -149,7 +149,7 @@
           'value' => "B",
         ],
       ]);
-      echo createElement("Yann a-t-il vraiment essayé<br>de nous acheter des croissants ?", [
+      echo createElement("Le formateur HTML, Yann, a-t-il vraiment<br>essayé de nous acheter des croissants ?", [
         [
           'type' => 'radio',
           'id' => 'q7answerA',
@@ -185,5 +185,6 @@
       echo createSubmit("score", "finish");
       echo closeTag("form");
       ?>
+      
   </body>
 </html>

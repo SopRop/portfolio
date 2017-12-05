@@ -27,9 +27,10 @@ if ($answer8 == "A") { $totalCorrect++; }
 if ($answer8 == "B") { $totalCorrect++; }
 
 if ($totalCorrect <= 3) {
-  echo "<div id='results'>You suck big fat balls, only " . $totalCorrect . "/8.</div>";
+  echo "<div id='results' style='text-align:center; font-size:60px'>C'est pas joli, joli...<br>Ton score est de " . $totalCorrect . "/8.</div>";
+  echo "<a href='../index.html#work'>< back to me</a>";
 } else if ($totalCorrect >=4 && $totalCorrect <=6) {
-  echo "<div id='results'>You are average, you got " . $totalCorrect . "/8.</div>";
+  echo "<div id='results' style='text-align:center; font-size:60px'>Peut mieux faire...<br>Ton score est de " . $totalCorrect . "/8.</div>";
 } else {
-  echo "<div id='results' style='text-align:center; font-size:60px'>You rock! You got " . $totalCorrect . "/8.</div>";
+  echo "<div id='results' style='text-align:center; font-size:60px'>Tu déchires !<br>Ton score est de " . $totalCorrect . "/8.</div>";
 }
