@@ -40,9 +40,11 @@
     </main>
 
     <section id="about" class="one-page flex-container">
+
       <div class="onethird flex-container">
         <img class="me" src="img/photoidentite.jpg">
       </div>
+
       <div class="twothird">
         <h2 class="hvr-underline-from-left">What about me?</h2>
           <p>Sophie, 30 ans, passionnée par l'informatique, les nouvelles technologies, et la création en tout genre sur ordinateur.</p>
@@ -69,6 +71,7 @@
             <div class="indesign"></div>
             <div class="vegaspro"></div>
           </div>
+
     </section>
 
     <section id="work" class="one-page flex-container-work">
@@ -120,15 +123,14 @@
     <section id="contact" class="one-page">
       <h1 class="flex-container hvr-underline-from-center">Wanna talk?</h1>
 
-      <form method="post" action="mail.php">
-        <label>Nom</label>
-        <input name="name" placeholder="">
-        <label>E-mail</label>
-        <input name="email" type="email" placeholder="">
-        <label>Message</label>
-        <textarea name="message" placeholder=""></textarea>
-        <input id="submit" name="submit" type="submit" value="Envoyer">
-      </form>
+      <div class="flex-container">
+          <form method="post" action="mail.php">
+            <input class="little-input" name="name" placeholder="Nom">
+            <input class="little-input" name="email" type="email" placeholder="E-mail">
+            <textarea name="message" placeholder="Message"></textarea>
+            <input id="submit" name="submit" type="submit" value="Envoyer">
+          </form>
+      </div>
 
     </section>
 
