@@ -44,8 +44,7 @@ h1{
   font-size: 40px;
   letter-spacing: 2px;
   font-weight: 400;
-  padding-top: 70px;
-  margin: 0 0 45px 0;
+  padding-top: 60px;
 }
 h2{
   text-transform: uppercase;
@@ -314,6 +313,11 @@ nav li{
 #work{
   background: url(img/concrete_wall.png) center top repeat;
 }
+.flex-container-work{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .hvr-underline-from-center{
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -395,7 +399,7 @@ nav li{
   margin-right: 8px;
 }
 .github{
-  margin-top: 40px;
+  margin-bottom: 50px;
 }
 
 /* CONTACT */
