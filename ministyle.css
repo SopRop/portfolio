@@ -6,7 +6,7 @@
 
 .type-it{
   position: relative;
-  font-size: 40px;
+  font-size: 30px;
   top: 30%;
   left: 50%;
 }
@@ -22,26 +22,55 @@
   display: none;
 }
 .twothird {
-    width: 90%;
+  width: 90%;
+}
+.remove-linkedin{
+  display: none;
+}
+.responsive-police{
+  font-size: 15px;
+}
+.fa-margin-right1{
+  margin-right: 4px;
+}
+.fa-margin-right{
+  margin-right: 3px;
+}
+.fa-margin-leftright{
+  margin-left: 5.5px;
+  margin-right: 5px;
+}
+.hvr-underline-from-left:before{
+  right: 54%;
+}
+.hvr-underline-from-right:before{
+  left: 87%;
 }
 h2{
   padding-top: 0px;
 }
 .h2-comp{
-  padding-top: 70px;
+  padding-top: 20px;
 }
 .prog div, .other div{
-  height: 75px;
-  width: 75px;
+  width: 15vw;
+  height: auto;
   margin: 0 0 8px 8px;
   border: 3px solid #851204;
+}
+.prog div:before, .other div:before{
+    content: "";
+    display: block;
+    padding-top: 100%;
 }
 .prog div:hover, .other div:hover{
   border: 3px solid #851204;
 }
+.javascript{
+  background-size: 105%;
+}
 .html:hover, .javascript:hover, .css:hover, .php:hover{
-  width: 75px;
-  height: 75px;
+  width: 15vw;
   background: inherit;
 }
 .html:hover{
@@ -59,4 +88,25 @@ h2{
 .php:hover{
   background: white url('img/logos/php.png') center no-repeat;
   background-size: 95%;
+}
+
+/* WORK */
+
+#work{
+  display: none;
+}
+
+/* CONTACT */
+
+.hvr-underline-from-center:before{
+  left: 45%;
+  right: 45%;
+}
+.little-input{
+  width: 60%;
+  height: 30px;
+}
+.big-input{
+  width: 85%;
+  height: 200px;
 }

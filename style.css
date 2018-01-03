@@ -174,7 +174,7 @@ nav li{
   position: absolute;
   z-index: -1;
   left: 0;
-  right: 84%;
+  right: 54%;
   bottom: 0;
   background: #851204;
   height: 12px;
@@ -329,6 +329,9 @@ nav li{
   flex-direction: column;
   justify-content: space-between;
 }
+.wrap{
+  flex-wrap: wrap;
+}
 .hvr-underline-from-center{
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -431,11 +434,11 @@ nav li{
 }
 .little-input{
   width: 14%;
-  height: 25px;
+  height: 35px;
 }
 .big-input{
   width: 30%;
-  height: 150px;
+  height: 250px;
 }
 .input-style{
   font-family: 'Roboto Condensed', sans-serif;
