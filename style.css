@@ -141,6 +141,12 @@ nav li{
   font-family: 'Orbitron', monospace;
   font-size: 50px;
 }
+.down-arrow{
+  position: absolute;
+  bottom: 2%;
+  text-align: center;
+  width: 100%;
+}
 
 /* ABOUT */
 

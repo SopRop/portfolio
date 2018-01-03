@@ -1,0 +1,62 @@
+/* MAIN */
+
+#change{
+  display: none;
+}
+
+.type-it{
+  position: relative;
+  font-size: 40px;
+  top: 30%;
+  left: 50%;
+}
+.down-arrow{
+  bottom: 10%;
+}
+
+/* ABOUT */
+#about{
+  padding-right: 0%;
+}
+.onethird{
+  display: none;
+}
+.twothird {
+    width: 90%;
+}
+h2{
+  padding-top: 0px;
+}
+.h2-comp{
+  padding-top: 70px;
+}
+.prog div, .other div{
+  height: 75px;
+  width: 75px;
+  margin: 0 0 8px 8px;
+  border: 3px solid #851204;
+}
+.prog div:hover, .other div:hover{
+  border: 3px solid #851204;
+}
+.html:hover, .javascript:hover, .css:hover, .php:hover{
+  width: 75px;
+  height: 75px;
+  background: inherit;
+}
+.html:hover{
+  background: white url('img/logos/html.png') center no-repeat;
+  background-size: 95%;
+}
+.javascript:hover{
+  background: white url('img/logos/javascript.png') center no-repeat;
+  background-size: contain;
+}
+.css:hover{
+  background: white url('img/logos/css.png') center no-repeat;
+  background-size: 69%;
+}
+.php:hover{
+  background: white url('img/logos/php.png') center no-repeat;
+  background-size: 95%;
+}
