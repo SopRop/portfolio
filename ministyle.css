@@ -44,7 +44,7 @@
   right: 54%;
 }
 .hvr-underline-from-right:before{
-  left: 87%;
+  left: 78%;
 }
 h2{
   padding-top: 0px;
@@ -99,8 +99,8 @@ h2{
 /* CONTACT */
 
 .hvr-underline-from-center:before{
-  left: 45%;
-  right: 45%;
+  left: 41%;
+  right: 41%;
 }
 .little-input{
   width: 60%;
