@@ -1,19 +1,17 @@
 $(document).ready(function(){
   $('.type-it').typeIt({
        lifeLike: true,
-       speed: 90,
+       speed: 95,
        autoStart: false,
        cursor: true,
        breakLines: true,
-       deleteSpeed: 80
+       deleteSpeed: 90
   })
   .tiType('Sophie ROPERT')
   .tiBreak()
-  .tiType('29')
-  .tiDelete(2)
-  .tiType('30yo / LYON, FR')
+  .tiType('29 a')
+  .tiDelete(4)
+  .tiType('30 ans / LYON, FR')
   .tiBreak()
-  .tiType('Geniu')
-  .tiDelete(5)
-  .tiType('Web developer')
+  .tiType('Développeur Web')
 });

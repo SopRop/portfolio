@@ -262,7 +262,7 @@ nav li{
 @keyframes spritehtml{
   100% { background-position: 0 -200px; }
 }
-.css {
+.css{
   background: url('img/logos/css.png') center no-repeat;
   background-size: 69%;
 }
@@ -284,12 +284,17 @@ nav li{
   background-size: 95%;
 }
 .php{
-  background: url("img/logos/php.png") no-repeat center;
+  background: url('img/logos/php.png') center no-repeat;
   background-size: 95%;
 }
 .php:hover{
-  background: white url("img/logos/mysql.png") no-repeat center;
-  background-size: 90%;
+  width: 100px;
+  height: 100px;
+  background: white url('img/logos/spritephp.png') 0 0 no-repeat;
+  animation: spritephp 1.3s steps(2) infinite;
+}
+@keyframes spritephp{
+  100% { background-position: 0 -200px; }
 }
 .python{
   background: url("img/logos/python.png") no-repeat center;
@@ -358,6 +363,9 @@ nav li{
   width: 380px;
   background-color: black !important;
 }
+.grey{
+  background-color: #2E2E2E !important;
+}
 .case-txt{
   padding: 5px 0;
   background-color: #D8D8D8;
@@ -408,18 +416,66 @@ nav li{
   background: url(img/seatsresize.jpg) no-repeat top fixed;
   background-size: cover;
 }
-.contact-form{
+.flex-form{
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-form{
-  display: flex;
-  flex-direction: column;
+  width: 100%;
+
 }
 .little-input{
-  width: 40%;
+  width: 14%;
+  height: 25px;
 }
-textarea{
-  width: 60%;
+.big-input{
+  width: 30%;
+  height: 150px;
+}
+.input-style{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 15px;
+  margin-bottom: 20px;
+  padding-left: 8px;
+  border: 3px solid #851204;
+  border-radius: 6px;
+}
+placeholder{
+  padding-left: 25px;
+}
+#submit{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 1px solid white;
+  background-color: white;
+  color: black;
+  padding: 6px 10px;
+}
+#submit:hover{
+  border: 1px solid white;
+  background-color: #851204;
+  color: white;
+  padding: 6px 10px;
+}
+.logo-link a{
+  margin-left: 8px;
+}
+.logo-link a:hover{
+  color: #851204;
+}
+.flex-column{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.end-port{
+  padding: 8px;
+  color: white;
+  background-color: black;
+}
+.end-port p{
+  margin-top: 10px;
+  font-size: 15px;
 }

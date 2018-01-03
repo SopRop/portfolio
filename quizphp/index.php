@@ -185,6 +185,6 @@
       echo createSubmit("score", "finish");
       echo closeTag("form");
       ?>
-      <a class="back hvr-grow" href="../index.html#work">< back to me</a>
+      <a class="back hvr-grow" href="../index.html#work">< retour</a>
   </body>
 </html>
