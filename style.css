@@ -44,19 +44,19 @@ h1{
   font-size: 40px;
   letter-spacing: 2px;
   font-weight: 400;
-  padding-top: 60px;
+  padding-top: 55px;
 }
 h2{
   text-transform: uppercase;
   font-size: 30px;
   letter-spacing: 2px;
   font-weight: 400;
-  padding-top: 25px;
-  margin: 0 0 12px 0;
+  padding-top: 18px;
+  margin: 0 0 10px 0;
 }
 h4{
   font-size: 22px;
-  margin: 18px 0 8px 0;
+  margin: 15px 0 8px 0;
 }
 a{
   text-decoration: none;
@@ -152,13 +152,13 @@ nav li{
 
 #about{
   background-color: black;
-  padding-right: 13%;
+  padding-right: 5%;
 }
 .onethird{
-  width: 33.3%;
+  width: 30%;
 }
 .twothird{
-  width: 66.6%;
+  width: 70%;
 }
 .hvr-underline-from-left {
   display: inline-block;
@@ -217,8 +217,8 @@ nav li{
   left: 89%;
 }
 .me{
-  padding-left: 15%;
-  width: 50%;
+  padding-left: 4%;
+  width: 60%;
   filter: blur(5px);
 }
 .me:hover{
@@ -364,12 +364,12 @@ nav li{
   display: flex;
   flex-direction: column;
   border: 2px solid #851204;
-  margin-right: 70px;
+  margin-right: 2.5%;
 }
 .case-img{
   display: flex;
-  height: 380px;
-  width: 380px;
+  height: 340px;
+  width: 340px;
   background-color: black !important;
 }
 .grey{
@@ -387,8 +387,8 @@ nav li{
 }
 .hidden{
   opacity: 0;
-  width: 380px;
-  height: 380px;
+  width: 340px;
+  height: 340px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -400,8 +400,8 @@ nav li{
 }
 .wanna{
   font-weight: 700;
-  font-size: 120px;
-  line-height: 95px;
+  font-size: 100px;
+  line-height: 90px;
   color: #D8D8D888
 }
 .quiz-img{
@@ -416,7 +416,8 @@ nav li{
   margin-right: 8px;
 }
 .github{
-  margin-bottom: 50px;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 /* CONTACT */
@@ -434,11 +435,11 @@ nav li{
 }
 .little-input{
   width: 14%;
-  height: 35px;
+  height: 32px;
 }
 .big-input{
   width: 30%;
-  height: 250px;
+  height: 220px;
 }
 .input-style{
   font-family: 'Roboto Condensed', sans-serif;

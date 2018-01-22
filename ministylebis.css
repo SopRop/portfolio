@@ -1,0 +1,16 @@
+/* ABOUT */
+#about{
+  padding-right: 0%;
+}
+.onethird{
+  display: none;
+}
+.twothird {
+  width: 85%;
+}
+h2{
+  padding-top: 3px;
+}
+.prog div, .other div{
+  margin: 0 0 4px 4px;
+}
