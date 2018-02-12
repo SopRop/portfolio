@@ -74,19 +74,19 @@ h2{
   background: inherit;
 }
 .html:hover{
-  background: white url('img/logos/html.png') center no-repeat;
+  background: white url('../img/logos/html.png') center no-repeat;
   background-size: 95%;
 }
 .javascript:hover{
-  background: white url('img/logos/javascript.png') center no-repeat;
+  background: white url('../img/logos/javascript.png') center no-repeat;
   background-size: contain;
 }
 .css:hover{
-  background: white url('img/logos/css.png') center no-repeat;
+  background: white url('../img/logos/css.png') center no-repeat;
   background-size: 69%;
 }
 .php:hover{
-  background: white url('img/logos/php.png') center no-repeat;
+  background: white url('../img/logos/php.png') center no-repeat;
   background-size: 95%;
 }
 

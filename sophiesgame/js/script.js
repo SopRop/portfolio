@@ -101,9 +101,9 @@ $(document).ready(function() {
     var goalPos = JSON.parse(localStorage.getItem('goalPos'));
     var monsterPos = JSON.parse(localStorage.getItem('monsterPos'));
 
-    $('.gameDiv[data-x="' + playerPos.x + '"][data-y="' + playerPos.y + '"]').html('<img style="width:100%;height:100%;" src="sophiesgame/img/van.png">');
-    $('.gameDiv[data-x="' + goalPos.x + '"][data-y="' + goalPos.y + '"]').html('<img style="width:100%;height:100%;" src="sophiesgame/img/sweet.png">');
-    $('.gameDiv[data-x="' + monsterPos.x + '"][data-y="' + monsterPos.y + '"]').html('<img style="width:100%;height:100%;" src="sophiesgame/img/ghost.png">');
+    $('.gameDiv[data-x="' + playerPos.x + '"][data-y="' + playerPos.y + '"]').html('<img style="width:100%;height:100%;" src="img/van.png">');
+    $('.gameDiv[data-x="' + goalPos.x + '"][data-y="' + goalPos.y + '"]').html('<img style="width:100%;height:100%;" src="img/sweet.png">');
+    $('.gameDiv[data-x="' + monsterPos.x + '"][data-y="' + monsterPos.y + '"]').html('<img style="width:100%;height:100%;" src="img/ghost.png">');
 
     $('body').on('keydown', function(e) {
 
@@ -138,7 +138,7 @@ $(document).ready(function() {
       if((currentPlayerPos.y - 1) > 0) {
         $('.gameDiv[data-x="' + currentPlayerPos.x + '"][data-y="' + currentPlayerPos.y + '"]').html('');
         currentPlayerPos.y -= 1;
-        $('.gameDiv[data-x="' + currentPlayerPos.x + '"][data-y="' + currentPlayerPos.y + '"]').html('<img style="width:100%;height:100%;" src="sophiesgame/img/van.png">');
+        $('.gameDiv[data-x="' + currentPlayerPos.x + '"][data-y="' + currentPlayerPos.y + '"]').html('<img style="width:100%;height:100%;" src="img/van.png">');
         checkVictory(currentPlayerPos);
         localStorage.setItem('playerPos', JSON.stringify(currentPlayerPos));
       } else {
@@ -148,7 +148,7 @@ $(document).ready(function() {
       if((currentPlayerPos.y + 1) <= gameSize.y) {
         $('.gameDiv[data-x="' + currentPlayerPos.x + '"][data-y="' + currentPlayerPos.y + '"]').html('');
         currentPlayerPos.y += 1;
-        $('.gameDiv[data-x="' + currentPlayerPos.x + '"][data-y="' + currentPlayerPos.y + '"]').html('<img style="width:100%;height:100%;" src="sophiesgame/img/van.png">');
+        $('.gameDiv[data-x="' + currentPlayerPos.x + '"][data-y="' + currentPlayerPos.y + '"]').html('<img style="width:100%;height:100%;" src="img/van.png">');
         checkVictory(currentPlayerPos);
         localStorage.setItem('playerPos', JSON.stringify(currentPlayerPos));
       } else {
@@ -158,7 +158,7 @@ $(document).ready(function() {
       if((currentPlayerPos.x - 1) > 0) {
         $('.gameDiv[data-x="' + currentPlayerPos.x + '"][data-y="' + currentPlayerPos.y + '"]').html('');
         currentPlayerPos.x -= 1;
-        $('.gameDiv[data-x="' + currentPlayerPos.x + '"][data-y="' + currentPlayerPos.y + '"]').html('<img style="width:100%;height:100%;" src="sophiesgame/img/van.png">');
+        $('.gameDiv[data-x="' + currentPlayerPos.x + '"][data-y="' + currentPlayerPos.y + '"]').html('<img style="width:100%;height:100%;" src="img/van.png">');
         checkVictory(currentPlayerPos);
         localStorage.setItem('playerPos', JSON.stringify(currentPlayerPos));
       } else {
@@ -168,7 +168,7 @@ $(document).ready(function() {
       if((currentPlayerPos.x + 1) <= gameSize.x) {
         $('.gameDiv[data-x="' + currentPlayerPos.x + '"][data-y="' + currentPlayerPos.y + '"]').html('');
         currentPlayerPos.x += 1;
-        $('.gameDiv[data-x="' + currentPlayerPos.x + '"][data-y="' + currentPlayerPos.y + '"]').html('<img style="width:100%;height:100%;" src="sophiesgame/img/van.png">');
+        $('.gameDiv[data-x="' + currentPlayerPos.x + '"][data-y="' + currentPlayerPos.y + '"]').html('<img style="width:100%;height:100%;" src="img/van.png">');
         checkVictory(currentPlayerPos);
         localStorage.setItem('playerPos', JSON.stringify(currentPlayerPos));
       } else {
@@ -181,7 +181,7 @@ $(document).ready(function() {
 
     while(JSON.parse(localStorage.getItem('monsterPos')).x == JSON.parse(localStorage.getItem('goalPos')).x && JSON.parse(localStorage.getItem('monsterPos')).y == JSON.parse(localStorage.getItem('goalPos')).y) {
       moveMonster();
-      $('.gameDiv[data-x="' + JSON.parse(localStorage.getItem('goalPos')).x + '"][data-y="' + JSON.parse(localStorage.getItem('goalPos')).y + '"]').html('<img style="width:100%;height:100%;" src="sophiesgame/img/sweet.png">');
+      $('.gameDiv[data-x="' + JSON.parse(localStorage.getItem('goalPos')).x + '"][data-y="' + JSON.parse(localStorage.getItem('goalPos')).y + '"]').html('<img style="width:100%;height:100%;" src="img/sweet.png">');
     }
     checkDefeat();
   }
@@ -197,14 +197,14 @@ $(document).ready(function() {
         if((currentMonsterPos.y - 1) > 0) {
           $('.gameDiv[data-x="' + currentMonsterPos.x + '"][data-y="' + currentMonsterPos.y + '"]').html('');
           currentMonsterPos.y -= 1;
-          $('.gameDiv[data-x="' + currentMonsterPos.x + '"][data-y="' + currentMonsterPos.y + '"]').html('<img style="width:100%;height:100%;" src="sophiesgame/img/ghost.png">');
+          $('.gameDiv[data-x="' + currentMonsterPos.x + '"][data-y="' + currentMonsterPos.y + '"]').html('<img style="width:100%;height:100%;" src="img/ghost.png">');
           localStorage.setItem('monsterPos', JSON.stringify(currentMonsterPos));
         }
       } else {
         if((currentMonsterPos.y + 1) <= gameSize.y) {
           $('.gameDiv[data-x="' + currentMonsterPos.x + '"][data-y="' + currentMonsterPos.y + '"]').html('');
           currentMonsterPos.y += 1;
-          $('.gameDiv[data-x="' + currentMonsterPos.x + '"][data-y="' + currentMonsterPos.y + '"]').html('<img style="width:100%;height:100%;" src="sophiesgame/img/ghost.png">');
+          $('.gameDiv[data-x="' + currentMonsterPos.x + '"][data-y="' + currentMonsterPos.y + '"]').html('<img style="width:100%;height:100%;" src="img/ghost.png">');
           localStorage.setItem('monsterPos', JSON.stringify(currentMonsterPos));
         }
       }
@@ -213,14 +213,14 @@ $(document).ready(function() {
         if((currentMonsterPos.x + 1) <= gameSize.x) {
           $('.gameDiv[data-x="' + currentMonsterPos.x + '"][data-y="' + currentMonsterPos.y + '"]').html('');
           currentMonsterPos.x += 1;
-          $('.gameDiv[data-x="' + currentMonsterPos.x + '"][data-y="' + currentMonsterPos.y + '"]').html('<img style="width:100%;height:100%;" src="sophiesgame/img/ghost.png">');
+          $('.gameDiv[data-x="' + currentMonsterPos.x + '"][data-y="' + currentMonsterPos.y + '"]').html('<img style="width:100%;height:100%;" src="img/ghost.png">');
           localStorage.setItem('monsterPos', JSON.stringify(currentMonsterPos));
         }
       } else {
         if((currentMonsterPos.x - 1) > 0) {
           $('.gameDiv[data-x="' + currentMonsterPos.x + '"][data-y="' + currentMonsterPos.y + '"]').html('');
           currentMonsterPos.x -= 1;
-          $('.gameDiv[data-x="' + currentMonsterPos.x + '"][data-y="' + currentMonsterPos.y + '"]').html('<img style="width:100%;height:100%;" src="sophiesgame/img/ghost.png">');
+          $('.gameDiv[data-x="' + currentMonsterPos.x + '"][data-y="' + currentMonsterPos.y + '"]').html('<img style="width:100%;height:100%;" src="img/ghost.png">');
           localStorage.setItem('monsterPos', JSON.stringify(currentMonsterPos));
         }
       }

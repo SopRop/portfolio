@@ -76,7 +76,7 @@ header{
 
 }
 main{
-  background: url(img/tasseresize.jpg) center top no-repeat;
+  background: url('../img/tasseresize.jpg') center top no-repeat;
   background-size: cover;
 }
 .flex-container-header{
@@ -256,73 +256,73 @@ nav li{
   border: 5px solid #D8D8D8;
 }
 .html{
-  background: url('img/logos/html.png') center no-repeat;
+  background: url('../img/logos/html.png') center no-repeat;
   background-size: 95%;
 }
 .html:hover{
   width: 100px;
   height: 100px;
-  background: white url('img/logos/spritehtml.png') 0 0 no-repeat;
+  background: white url('../img/logos/spritehtml.png') 0 0 no-repeat;
   animation: spritehtml 1.3s steps(2) infinite;
 }
 @keyframes spritehtml{
   100% { background-position: 0 -200px; }
 }
 .css{
-  background: url('img/logos/css.png') center no-repeat;
+  background: url('../img/logos/css.png') center no-repeat;
   background-size: 69%;
 }
 .css:hover{
   width: 100px;
   height: 100px;
-  background: white url('img/logos/spritecss.png') 0 0 no-repeat;
+  background: white url('../img/logos/spritecss.png') 0 0 no-repeat;
   animation: spritecss 1.3s steps(2) infinite;
 }
 @keyframes spritecss{
   100% { background-position: 0 -200px; }
 }
 .javascript{
-  background: url("img/logos/javascript.png") no-repeat center;
+  background: url("../img/logos/javascript.png") no-repeat center;
   background-size: contain;
 }
 .javascript:hover{
-  background: white url("img/logos/jquery.png") no-repeat center;
+  background: white url("../img/logos/jquery.png") no-repeat center;
   background-size: 95%;
 }
 .php{
-  background: url('img/logos/php.png') center no-repeat;
+  background: url('../img/logos/php.png') center no-repeat;
   background-size: 95%;
 }
 .php:hover{
   width: 100px;
   height: 100px;
-  background: white url('img/logos/spritephp.png') 0 0 no-repeat;
+  background: white url('../img/logos/spritephp.png') 0 0 no-repeat;
   animation: spritephp 1.3s steps(2) infinite;
 }
 @keyframes spritephp{
   100% { background-position: 0 -200px; }
 }
 .python{
-  background: url("img/logos/python.png") no-repeat center;
+  background: url("../img/logos/python.png") no-repeat center;
   background-size: 95%;
 }
 .photoshop{
-  background: url("img/logos/photoshop.png") no-repeat center;
+  background: url("../img/logos/photoshop.png") no-repeat center;
   background-size: 102%;
 }
 .indesign{
-  background: url("img/logos/indesign.png") no-repeat center;
+  background: url("../img/logos/indesign.png") no-repeat center;
   background-size: 103%;
 }
 .vegaspro{
-  background: url("img/logos/vegaspro.png") no-repeat center;
+  background: url("../img/logos/vegaspro.png") no-repeat center;
   background-size: 215%;
 }
 
 /* WORK */
 
 #work{
-  background: url(img/concrete_wall.png) center top repeat;
+  background: url('../img/concrete_wall.png') center top repeat;
 }
 .flex-container-work{
   display: flex;
@@ -405,11 +405,15 @@ nav li{
   color: #D8D8D888
 }
 .quiz-img{
-  background: url("img/quiz-img.jpg") no-repeat center;
+  background: url("../img/quiz-img.jpg") no-repeat center;
   background-size: contain;
 }
 .sgame-img{
-  background: url("img/sgame1.jpeg") no-repeat center;
+  background: url("../img/sgame1.jpeg") no-repeat center;
+  background-size: contain;
+}
+.register-img{
+  background: url("../img/capreg.png") no-repeat center;
   background-size: contain;
 }
 .icon-git{
@@ -423,7 +427,7 @@ nav li{
 /* CONTACT */
 
 #contact{
-  background: url(img/seatsresize.jpg) no-repeat top fixed;
+  background: url('../img/seatsresize.jpg') no-repeat top fixed;
   background-size: cover;
 }
 .flex-form{
