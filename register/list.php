@@ -18,7 +18,7 @@
       $result = mysqli_query($con, $query2);
       $resultCheck = mysqli_num_rows($result);
 
-      echo "<a href='index.php'>< Register</a>
+      echo "<a class='blue-link' href='index.php'>< Register</a>
       <table>
       <tr>
       <th>Last Name</th>

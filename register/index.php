@@ -8,7 +8,7 @@
   </head>
   <body>
 
-    <p class="link"><a href="list.php">List ></a></p>
+    <p class="link"><a class="blue-link" href="list.php">List ></a></p>
 
     <h1>Registration</h1>
     <div class="line"></div>
@@ -32,6 +32,8 @@
 
       <button id="register">Register</button>
     </div>
+
+    <a class="back hvr-grow" href="../index.html#work">< retour</a>
 
     <script
 			  src="https://code.jquery.com/jquery-3.3.1.min.js"
